@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>29/10 Tables</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" >
+        <caption><B>HTML Tables</B></caption>
+    <tr>
+        <th>Student_Id</th>
+        <th>Student_Name</th>
+        <th>Student_Age</th>
+        <th>Student_Gender</th>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>Ravi</td>
+        <td>23</td>
+        <td>Male</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>Ramya</td>
+        <td>21</td>
+        <td>Female</td>
+    </tr>
+    <tr>
+        <td>103</td>
+        <td>Sam</td>
+        <td>23</td>
+        <td>Male</td>
+    </tr>
+    <tr>
+        <td>104</td>
+        <td>Roopa</td>
+        <td>22</td>
+        <td>Female</td>
+    </tr>
+</table>
+<hr>
+<table border="1" cellspacing="0">
+    <caption><B>Vertical Table</B></caption>
+    <tr>
+        <th>Student_Id</th>
+        <td>101</td>
+        <td>102</td>
+        <td>103</td>
+        <td>104</td>
+    </tr>
+    <tr>
+        <th>Student_Name</th>
+        <td>Ravi</td>
+        <td>Ramya</td>
+        <td>Sam</td>
+        <td>Roopa</td>
+    </tr>
+    <tr>
+        <th>Student_Age</th>
+        <td>23</td>
+        <td>21</td>
+        <td>23</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <th>Student_Gender</th>
+        <td>Male</td>
+        <td>Female</td>
+        <td>Male</td>
+        <td>Female</td>
+    </tr>
+</table>
+<hr>
+<table border="1" cellspacing="0">
+    <caption><b>Table with Caption</b></caption>
+    <tr>
+        <th>Student_Id</th>
+        <th>Student_Name</th>
+        <th>Student_Age</th>
+        <th>Student_Gender</th>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>Ravi</td>
+        <td>23</td>
+        <td>Male</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>Ramya</td>
+        <td>21</td>
+        <td>Female</td>
+    </tr>
+    <tr>
+        <td>103</td>
+        <td>Sam</td>
+        <td>23</td>
+        <td>Male</td>
+    </tr>
+    <tr>
+        <td>104</td>
+        <td>Roopa</td>
+        <td>22</td>
+        <td>Female</td>
+    </tr>
+</table>
+<hr>
+<table border="1" cellspacing="0">
+    <caption><B>Merging columns</B></caption>
+    <tr>
+        <th colspan="2">Full Name</th>
+        <th>Rating</th>
+    </tr>
+    <tr>
+        <td>Ravi Kiran</td>
+        <td>V</td>
+        <td>7.8</td>
+    </tr>
+    <tr>
+        <td>Ramya Sathwika</td>
+        <td>Suresh</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Sachin</td>
+        <td>Gambhira</td>
+        <td>6.7</td>
+    </tr>
+    <tr>
+        <td>Smitha Sri</td>
+        <td>R</td>
+        <td>9</td>
+    </tr>
+</table>
+<hr>
+<table border="1" cellspacing="0">
+    <caption><B>Merging Rows and Columns</B></caption>
+    <tr>
+        <th rowspan="4">Full Name</th>
+        <td>Ravi Kiran</td>
+        <td>V</td>
+    </tr>
+    <tr>
+        <td>Ramya Sathwikarupa</td>
+        <td>Suresh</td>
+    </tr>
+    <tr>
+        <td>Sachin</td>
+        <td>Gambhira</td>
+    </tr>
+    <tr>
+        <td>Smitha Sri</td>
+        <td>Raghuveratilaka</td>
+    </tr>
+        <tr>
+        <th rowspan="4">Rating</th>
+        <td colspan="2">7.8</td>
+    </tr>
+    <tr>
+        <td colspan="2">8</td>
+    </tr>
+    <tr>
+        <td colspan="2">6.7</td>
+    </tr>
+    <tr>
+        <td colspan="2">9</td>
+    </tr>
+</table>
+<hr>
+    <table border="1" cellspacing="0">
+        <caption><B>TIMETABLE</B></caption>
+        <tr>
+            <th>Day/Period</th>
+            <td align="center"><b>I<br>9:00-10:20</b></td>
+            <td align="center"><b>II<br>10:20-11:10</b></td>
+            <td align="center"><b>III<br>11:10-12:00</b></td>
+            <td align="center"><b>12:00-12:40<br>LUNCH</b></td>
+            <td align="center"><b>IV <br>12:40-1:30</b></td>
+            <td align="center"><b>V<br>1:30-2:20</b></td>
+            <td align="center"><b>VI <br>2:20-3:20</b></td>
+            <td align="center"><b>VII <br>3:10-4:00</b></td>
+        </tr>
+        <tr>
+            <td><b>Monday</b></td>
+            <td align="center">Eng</td>
+            <td align="center">Mat</td>
+            <td align="center">Che</td>
+            <td rowspan="6" align="center"><b>L<br>U<br>N<br>C<br>H</b></td>
+            <td align="center"colspan="3">Lab</td>
+            <td align="center">Phy</td>
+        </tr>
+        <tr>
+            <td><b>Tuesday</b></td>
+            <td colspan="3" align="center">Lab</td>
+            <td align="center">Eng</td>
+            <td align="center">Che</td>
+            <td align="center">Mat</td>
+            <td align="center">Sports</td>
+        </tr>
+        <tr>
+            <td><b>Wedneday</b></td>
+            <td align="center">Mat</td>
+            <td align="center">Phy</td>
+            <td align="center">Eng</td>
+            <td align="center">Che</td>
+            <td colspan="3" align="center">Lab</td>
+        </tr>
+        <tr>
+            <td><b>Thursday</b></td>
+            <td align="center">Phy</td>
+            <td align="center">Eng</td>
+            <td align="center">Che</td>
+            <td colspan="3" align="center">Lab</td>
+            <td align="center">Mat</td>
+        </tr>
+        <tr>
+            <td><b>Friday</b></td>
+            <td colspan="3" align="center">Lab</td>
+            <td align="center">Mat</td>
+            <td align="center">Che</td>
+            <td align="center">Eng</td>
+            <td align="center">Phy</td>
+        </tr>
+        <tr>
+            <td><b>Saturday</b></td>
+            <td align="center">Eng</td>
+            <td align="center">Chem</td>
+            <td align="center">Mat</td>
+            <td colspan="3" align="center">Seminar</td>
+            <td align="center">Sports</td>
+        </tr>
+    </table>
+</body>
+</html>
